@@ -1,0 +1,1 @@
+# openshift-charts helm repository
