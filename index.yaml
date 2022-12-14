@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  operator-subscription:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-14T14:50:54.653345009-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 12dea34e90661079214e57d2aced3c6c58129014f625c9cd5acfa2e2ecd01ce8
+    name: operator-subscription
+    type: application
+    urls:
+    - operator-subscription-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-14T14:50:54.653134728-05:00"
