@@ -1,0 +1,15 @@
+{{- if .Values.requiresOperatorGroup }}
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: {{ default .Values.subscriptionName .Values.operatorGroupName | quote}}
+{{- if .Values.operatorGroupNamespaces }}
+spec:
+  targetNamespaces:
+{{- range .Values.operatorGroupNamespaces }}
+    - {{.}}
+{{- end }}
+{{- end }}
+{{- else }}
+spec: {}
+{{- end }}

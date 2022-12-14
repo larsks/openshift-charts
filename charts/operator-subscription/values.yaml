@@ -1,0 +1,10 @@
+subscriptionName: ""
+subscriptionChannel: ""
+subscriptionSource: ""
+subscriptionSourceNamespace: ""
+subscriptionApproval: Automatic
+
+requiresOperatorGroup: false
+
+operatorGroupName:
+operatorNamespaces: []

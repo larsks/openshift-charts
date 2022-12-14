@@ -1,0 +1,8 @@
+subscriptionName: "openshift-gitops"
+subscriptionChannel: "gitops-1.6"
+subscriptionSource: "redhat-operators"
+subscriptionSourceNamespace: "openshift-marketplace"
+
+requiresOperatorGroup: true
+operatorGroupName:
+operatorNamespaces: []
